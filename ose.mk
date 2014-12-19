@@ -6,6 +6,9 @@ $(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/du/config/common.mk)
+
 PRODUCT_NAME := ose_find7
 PRODUCT_DEVICE := find7
 
