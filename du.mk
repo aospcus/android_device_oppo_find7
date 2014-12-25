@@ -3,13 +3,13 @@ $(call inherit-product, device/oppo/find7/full_find7.mk)
 # Enhanced NFC
 $(call inherit-product, vendor/du/config/nfc_enhanced.mk)
 
-# Inherit some common CM stuff.
+# Inherit some common du stuff.
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/du/config/common.mk)
 
-PRODUCT_NAME := ose_find7
+PRODUCT_NAME := du_find7
 PRODUCT_DEVICE := find7
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
